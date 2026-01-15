@@ -79,6 +79,18 @@ Includes basic Kubernetes YAML files to understand orchestration fundamentals.
 ### CI/CD
 Demonstrates CI/CD concepts using GitHub Actions and automation workflows.
 
+#### GitHub Actions CI Example
+This repository includes a **basic GitHub Actions CI workflow** to help beginners understand Continuous Integration.
+
+**What this workflow does:**
+- Runs automatically on every push and pull request
+- Checks out the repository code
+- Runs a simple sanity check to confirm CI execution
+
+**Workflow location:**
+```text
+.github/workflows/ci.yml
+
 ### Cloud
 Focuses on cloud fundamentals, starting with AWS basics.
 
