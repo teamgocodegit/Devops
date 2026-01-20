@@ -1,0 +1,17 @@
+name: CD - Manual Deployment
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Deployment placeholder
+        run: |
+          echo "Add real deployment logic here"
+          echo "Example: AWS / Docker / Kubernetes"
